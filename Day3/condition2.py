@@ -53,6 +53,8 @@ while i<71:
             print(i)
     i+=1
 
+
+
 i=100
 a=1
 while i<111:
