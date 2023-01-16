@@ -64,7 +64,7 @@ while i<111:
 print(a)
 
 
-i=1
+i=0
 a=0
 while i<101:
     if i%3==0:
