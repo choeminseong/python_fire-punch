@@ -47,7 +47,7 @@ for i in range(-100,101):
     x.append(i)
     y.append(i*i)
     x1.append(i)
-    y1.append(50*i)
+    y1.append(60*i)
 plt.figure()
 plt.plot(x,y,x1,y1)
 plt.xlabel("x axis")
