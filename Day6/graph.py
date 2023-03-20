@@ -28,28 +28,28 @@ import matplotlib.pyplot as plt
 # plt.title("y=x+1, y=1/2x")
 # plt.show()
 
-# x=[]
-# y=[]
-# for i in range(100):
-#     x.append(i)
-#     y.append(-3*i+5)
-# plt.figure()
-# plt.plot(x,y)
-# plt.xlabel("x axis")
-# plt.ylabel("y axis")
-# plt.show()
-
 x=[]
 y=[]
-x1=[]
-y1=[]
-for i in range(-100,101):
+for i in range(100):
     x.append(i)
-    y.append(i*i)
-    x1.append(i)
-    y1.append(60*i)
+    y.append(-3*i+5)
 plt.figure()
-plt.plot(x,y,x1,y1)
+plt.plot(x,y)
 plt.xlabel("x axis")
 plt.ylabel("y axis")
 plt.show()
+
+# x=[]
+# y=[]
+# x1=[]
+# y1=[]
+# for i in range(-100,101):
+#     x.append(i)
+#     y.append(i*i)
+#     x1.append(i)
+#     y1.append(60*i)
+# plt.figure()
+# plt.plot(x,y,x1,y1)
+# plt.xlabel("x axis")
+# plt.ylabel("y axis")
+# plt.show()
